@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tabuada</title>
+</head>
+
+<body>
+
+    <h1>Tabuada interativa</h1>
+
+    <div class="container-alert none">
+    </div>
+    <form>
+        <main>
+            <label class="cabecalho" for="valor">Valor da tabuada</label>
+            <input class="campo" type="number" name="valor" id="valor" placeholder="Digite o valor da sua tabuada:">
+            <input type="submit" onclick="return false" value="Enviar" id="enviar">
+        </main>
+    </form>
+    <div class="container">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Multiplo</th>
+                    <th>Multiplicador</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody id="entrada">
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
