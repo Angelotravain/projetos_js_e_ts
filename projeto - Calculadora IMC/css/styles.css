@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #fff;
+}
+
+body {
+    background-color: #2d2d2d;
+}
+
+.align {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    background-color: #3c3c3c;
+}
+
+.header h1 {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.fields label,
+.fields input {
+    margin: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.fields input {
+    font-size: 20px;
+    height: 40px;
+    margin: 0 30px;
+    color: #2d2d2d;
+}
+
+.fields label {
+    margin-top: 25px;
+}
+
+.button {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+}
+
+.button .btn {
+    margin-left: 15px;
+    height: 40px;
+    width: 50%;
+    background-color: #2d2d2d;
+    font-size: 20px;
+}
+
+.button .calc {
+    background-color: #dc1825;
+}
+
+.button .btn:hover {
+    opacity: 0.8;
+}
